@@ -81,6 +81,7 @@ footer .mainLink {
 .homepageLinks {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     margin-top: -40px;
     margin-bottom: 40px;
 }
