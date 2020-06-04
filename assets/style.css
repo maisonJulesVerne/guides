@@ -78,6 +78,38 @@ footer .mainLink {
     animation: 'fadeOut' 2s forwards;
 }
 
+.homepageLinks {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.homepageLinks a {
+    display: block;
+    width: 140px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.homepageLinks a span{
+    display: block;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.homepageLinks a img {
+    width: 100%;
+    box-shadow: 0px 10px 14.1px 0.9px rgba(0, 0, 0, 0.24), 0px 4px 19.6px 0.4px rgba(0, 0, 0, 0.16);
+    transition: 0.3s ease-in-out;
+}
+
+.homepageLinks a img:hover {
+    box-shadow: 0px 10px 14.1px 0.9px rgba(0, 0, 0, 0.5), 0px 4px 19.6px 0.4px rgba(0, 0, 0, 0.16);
+}
+
 @keyframes fadeOut {
     0% {
         opacity: 1;
